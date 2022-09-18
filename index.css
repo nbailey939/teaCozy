@@ -1,0 +1,64 @@
+/* Main Style */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/* Navigation style */
+.header {
+  height: 69px;
+  width: 100%;
+  display: block;
+  background-color: black;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  top: 0px;
+}
+.logo {
+  float: left;
+  padding-left: 10px;
+  margin-top: 7px;
+  height: 50px;
+}
+.navigation {
+  float: right;
+  height: 100%;
+  margin: 0 auto;
+}
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0 20px;
+}
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  text-decoration: underline;
+  color: white;
+}
+
+/* Hero content style */
+.mission-content {
+  background-image: url('./images/img-mission-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  max-width: 1000px;
+  margin: 40px auto 40px auto;
+  display: flex;
+}
+.text {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Tea of the Month style */
